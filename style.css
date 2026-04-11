@@ -1,0 +1,28 @@
+
+nav {
+    background-color: rgb(144, 143, 143);
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.setup a {
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+nav li{
+    display: inline;
+    margin: 5px;
+    width: 100%;
+}
