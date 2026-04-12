@@ -4,12 +4,13 @@
     padding: 0;
 }
 nav {
-    background-color: #fff;
+    background-color: #ffffff60;
     color: white;
     padding: 0px;
     justify-content: space-between;
     display: flex;
     width: 100%;
+    position: fixed;
 }
 nav h1 {
     text-align: center;
@@ -207,4 +208,30 @@ h2 {
 }
 .setup button:hover {
     background: linear-gradient(135deg, #ffaf6d 0%, #914d00 100%);
+}
+
+.num{
+    font-size: 20px;
+    color: #914d00;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.num-card {
+    background-color: rgba(176, 205, 252, 0.5);
+    border-radius: 10px;
+    padding: 17px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 25%;
+}
+#cof{
+    background-color: rgb(245, 233, 215);
+}
+#green{
+    background-color: rgb(211, 251, 224);
+
 }
