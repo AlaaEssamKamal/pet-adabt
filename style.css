@@ -207,10 +207,13 @@ footer {
 .footer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 40px;
 }
 
-
+.div-1 {
+    width: 48%;
+}
 .div-1 h3 {
     font-size: 24px;
     color: #333;
@@ -227,6 +230,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 48%;
     gap: 40px;
 }
 
@@ -276,13 +280,12 @@ footer {
 
 
 .div-2-2 {
-    display: flex;
-    justify-content: space-between;
     border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
     padding-top: 20px;
     color: #777;
-    flex-wrap: wrap;
-    gap: 10px;
+    width: 100% ;
 }
 .setup button {
     background: linear-gradient(135deg, #914d00 0%, #ffaf6d 100%);   
