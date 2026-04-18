@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #ffffff60;
+    color: white;
+    padding: 0px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    position: fixed;
+}
+nav h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: #914d00;
+    padding: 10px 20px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 10px auto;
+}
+
+.setup a {
+    text-decoration: none;
+    color: rgb(29, 28, 28);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    transition: 0.5s ease;
+    margin: 0 auto;
+}
+.setup a:hover {
+    color: #ffaf6d;
+}
+nav li{
+    display: inline;
+    margin: 5px;
+    width: 100%;
+}
+.setup button {
+    background: linear-gradient(135deg, #914d00 0%, #ffaf6d 100%);   
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.5s ease;
+}
+.setup button:hover {
+    background: linear-gradient(135deg, #ffaf6d 0%, #914d00 100%);
+}
