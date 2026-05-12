@@ -158,3 +158,55 @@ body {
     font-size: 25px;
     padding: 5px;
 }
+.the-header{
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+
+}
+.the-header h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#34322b ;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 45px;
+}
+.the-header h2{
+    color: #914D00;
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.boxes{
+  width: 100%;
+  padding: 15px;
+}
+.dog-box{
+    background-color: #f9f4f4;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    width: 65%;
+}
+.dog-box h2{
+    font-family:sans-serif ;
+    color:#34322b;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.dog-box p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#4b4848 ;
+    font-size: 15px;
+}
+.dog-box img{
+    border-radius: 15px;
+    object-fit: cover;
+    width: 25%;
+}
+.image img{
+    display: flex;
+    justify-content: flex-end;
+    right: 75%;
+}
