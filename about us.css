@@ -180,13 +180,36 @@ body {
 .boxes{
   width: 100%;
   padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 70%;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 20px;
 }
 .dog-box{
     background-color: #f9f4f4;
-    border-radius: 15px;
     padding: 20px;
     margin: 10px;
-    width: 65%;
+    width: 60%;
+    height: 40%;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+ 
+}
+.dog-box img{
+       border-radius: 15px;
+    object-fit: cover;
+    width: 25%;
+    float: right;
+    margin: 10px;
+    height: 100%;
+    overflow: hidden;
+    width: 90%;
+  position: absolute;
+  bottom: 0;
+   
 }
 .dog-box h2{
     font-family:sans-serif ;
@@ -198,15 +221,82 @@ body {
 .dog-box p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#4b4848 ;
-    font-size: 15px;
+    font-size: 18px;
 }
-.dog-box img{
+
+.save{
+    background-color: #E1F0FB;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 20px;
+    justify-items: center;
+    text-align: center;
+}
+.save h2{
+    font-family:sans-serif ;
+    color:#34322b; 
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.save p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#4b4848 ;
+    font-size: 18px;
+}
+.fa-hand-holding{
+    color: rgb(76 90 99 / var(--tw-text-opacity, 1));
+    
+}
+.match{
+    background-color: #E7F4E8;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 20px;
+    justify-items: center;
+    text-align: center;
+    height: 45%;
+}
+.match h2{
+    font-family:sans-serif ;
+    color:#34322b; 
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.match p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#4b4848 ;
+    font-size: 18px;
+}
+.life{
+    background-color: #f9f4f4;
+    padding: 20px;
+    margin: 10px;
+    width: 60%;
+    height: 40%;
+    margin: 15px;
+    padding: 20px;
+    
+}
+.life h2{
+    font-family:sans-serif ;
+    color:#34322b;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.life p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#4b4848 ;
+    font-size: 18px;
+}
+.life img{
     border-radius: 15px;
     object-fit: cover;
     width: 25%;
-}
-.image img{
-    display: flex;
-    justify-content: flex-end;
-    right: 75%;
+    float: left;
+    margin: 10px;
+    height: 100%;
 }
