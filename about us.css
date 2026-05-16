@@ -5,6 +5,7 @@
 
 body {
     background-color: antiquewhite;
+    width: 100%;
 }
 
 .first {
@@ -180,13 +181,36 @@ body {
 .boxes{
   width: 100%;
   padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 70%;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 20px;
 }
 .dog-box{
     background-color: #f9f4f4;
-    border-radius: 15px;
     padding: 20px;
     margin: 10px;
-    width: 65%;
+    width: 60%;
+    height: 40%;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+ 
+}
+.dog-box img{
+       border-radius: 15px;
+    object-fit: cover;
+    width: 25%;
+    float: right;
+    margin: 10px;
+    height: 100%;
+    overflow: hidden;
+    width: 90%;
+  position: absolute;
+  bottom: 0;
+   
 }
 .dog-box h2{
     font-family:sans-serif ;
@@ -198,15 +222,171 @@ body {
 .dog-box p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#4b4848 ;
-    font-size: 15px;
+    font-size: 18px;
 }
-.dog-box img{
+
+.save{
+    background-color: #E1F0FB;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 20px;
+    justify-items: center;
+    text-align: center;
+}
+.save h2{
+    font-family:sans-serif ;
+    color:#34322b; 
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.save p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#4b4848 ;
+    font-size: 18px;
+}
+.fa-hand-holding{
+    color: rgb(76 90 99 / var(--tw-text-opacity, 1));
+    
+}
+.match{
+    background-color: #E7F4E8;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 20px;
+    justify-items: center;
+    text-align: center;
+    height: 40%;
+}
+.match h2{
+    font-family:sans-serif ;
+    color:#34322b; 
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.match p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#4b4848 ;
+    font-size: 18px;
+}
+.life{
+    background-color: #f9f4f4;
+    padding: 20px;
+    margin: 10px;
+    width: 60%;
+    height: 40%;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.life h2{
+    font-family:sans-serif ;
+    color:#34322b;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.life p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#4b4848 ;
+    font-size: 18px;
+}
+.life img{
     border-radius: 15px;
     object-fit: cover;
     width: 25%;
+    float: left;
+    margin: 10px;
+    height: 100%;
 }
-.image img{
+.fourth{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+
+}
+.people{
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 20px;
+    justify-items: center;
+    text-align: center;
+    width: 100%;
+
+}
+.people h2{
+    font-family:sans-serif ;
+    color:#34322b; 
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.people p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#914D00 ;
+    font-size: 18px;
+    font-weight: bold;
+}
+.people-img{
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
-    right: 75%;
+    
+}
+.people-img img{
+    border-radius: 15px;
+    object-fit: cover;
+    filter: grayscale(100%);
+    border-radius: 50%;
+    box-shadow: #34322b 0px 0px 10px;
+    margin: 20px;
+    width: 25%;
+    height: 25%;
+    margin: 5px;
+    gap: 5px;
+
+
+}
+.people-img h2{
+    font-family:sans-serif ;
+    color:#34322b; 
+    margin-bottom: 20px;
+    font-size: 30px;
+    
+}
+.people-img p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#914D00 ;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 15px;
+    
+}
+.people-img img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.first-pic, .second-pic, .third-pic, .fourth-pic{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+.first-pic img, .second-pic img, .third-pic img, .fourth-pic img{
+    width: 55%;
+    height: 55%;
+    object-fit: cover;
+}
+.first-pic h2, .second-pic h2, .third-pic h2, .fourth-pic h2{
+    font-family:sans-serif ;
+    color:#34322b; 
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.first-pic p, .second-pic p, .third-pic p, .fourth-pic p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#914D00 ;
+    font-size: 18px;
 }
