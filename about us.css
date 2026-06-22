@@ -190,8 +190,6 @@ body {
 }
 .dog-box{
     background-color: #f9f4f4;
-    padding: 20px;
-    margin: 10px;
     width: 60%;
     height: 40%;
     margin: 15px;
@@ -202,14 +200,12 @@ body {
 .dog-box img{
        border-radius: 15px;
     object-fit: cover;
-    width: 25%;
     float: right;
     margin: 10px;
     height: 100%;
     overflow: hidden;
-    width: 90%;
-  position: absolute;
-  bottom: 0;
+   bottom: 0;
+   width: 300px;
    
 }
 .dog-box h2{
